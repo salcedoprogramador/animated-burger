@@ -1,0 +1,95 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__burger {
+  width: 31em;
+  height: 31em;
+  margin: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pan__superior {
+  background-color: #ffad01;
+  margin-top: 10px;
+  width: 350px;
+  height: 122px;
+  border-radius: 51% 49% 12% 12% / 100% 100% 2% 2%;
+}
+.queso {
+  width: 350px;
+  height: 16px;
+  background-color: #fef200;
+
+  border-radius: 0.8em;
+}
+.gratinado {
+  width: 160px;
+  height: 60px;
+  position: relative;
+  background-color: #fef200;
+  clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+  margin-left: 5px;
+}
+.carne {
+  width: 374px;
+  height: 62px;
+  background-color: #893101;
+
+  border-radius: 1.6em;
+}
+.tomate {
+  width: 350px;
+  height: 16px;
+  background-color: #f00001;
+
+  border-radius: 0.8em;
+}
+.lechuga {
+  width: 350px;
+  height: 10px;
+  background-color: #addd10;
+
+  border-radius: 0.8em;
+  display: flex;
+  justify-content: space-around;
+}
+.lechugafresca {
+  border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
+  width: 110px;
+  height: 40px;
+  background-color: #addd10;
+  position: relative;
+}
+.pan__inferior {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  height: 78px;
+  background-color: #ffad01;
+
+  border-radius: 50% 50% 30% 30% / 0% 0% 100% 100%;
+}
+.panfresco {
+  margin-left: 85px;
+  background-color: #ffad01;
+  position: relative;
+  width: 55px;
+  height: 30px;
+  border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
+}
+.panfresco2 {
+  margin-right: 85px;
+  background-color: #ffad01;
+  position: relative;
+  width: 55px;
+  height: 30px;
+  border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
+}
